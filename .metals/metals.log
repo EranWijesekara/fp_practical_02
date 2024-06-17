@@ -1,0 +1,729 @@
+2024.06.17 22:42:10 INFO  Started: Metals version 1.3.1 in folders '/private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02' for client Visual Studio Code 1.89.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2f1ad4cf]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@512b6a54]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2f1ad4cf]
+2024.06.17 22:42:10 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.17 22:42:12 INFO  running '/Library/Java/JavaVirtualMachines/jdk-22.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/metals4200723101780085613/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.06.17 22:42:12 WARN  no build target for: /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/metals.sbt
+2024.06.17 22:42:13 WARN  no build target for: /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/project/metals.sbt
+2024.06.17 22:42:12 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 22:42:13 INFO  [info] welcome to sbt 1.9.9 (Oracle Corporation Java 22.0.1)
+2024.06.17 22:42:14 INFO  [info] loading settings for project fp_practical02-build-build from metals.sbt ...
+2024.06.17 22:42:14 INFO  [info] loading project definition from /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/project
+2024.06.17 22:42:16 INFO  [info] loading settings for project fp_practical02-build from metals.sbt ...
+2024.06.17 22:42:16 INFO  [info] loading project definition from /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project
+2024.06.17 22:42:17 INFO  [success] Generated .bloop/fp_practical02-build.json
+2024.06.17 22:42:17 INFO  [success] Total time: 1 s, completed Jun 17, 2024, 10:42:18 PM
+2024.06.17 22:42:17 INFO  [info] loading settings for project fp_practical02 from build.sbt ...
+2024.06.17 22:42:19 INFO  [info] set current project to hello-world (in build file:/private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/)
+2024.06.17 22:42:19 INFO  [success] Generated .bloop/fp_practical02.json
+2024.06.17 22:42:19 INFO  [success] Generated .bloop/fp_practical02-test.json
+2024.06.17 22:42:19 INFO  [success] Total time: 0 s, completed Jun 17, 2024, 10:42:19 PM
+2024.06.17 22:42:19 INFO  time: ran 'sbt bloopInstall' in 6.61s
+2024.06.17 22:42:19 INFO  Attempting to connect to the build server...
+2024.06.17 22:42:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/.metals/bsp.trace.json or /Users/eranwijesekara/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.17 22:42:19 INFO  Attempting to connect to the build server...
+2024.06.17 22:42:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/.metals/bsp.trace.json or /Users/eranwijesekara/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.17 22:42:19 INFO  time: Connected to build server in 0.33s
+2024.06.17 22:42:19 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.17 22:42:21 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 22:42:26 INFO  time: indexed workspace in 5.51s
+2024.06.17 22:42:58 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 22:43:03 INFO  time: compiled fp_practical02 in 4.96s
+2024.06.17 22:43:09 INFO  time: code lens generation in 1.5s
+2024.06.17 22:43:32 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/q1.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.17 22:43:32 WARN  no build target for: /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/q1.scala
+2024.06.17 22:43:32 INFO  skipping build import with status 'Installed'
+2024.06.17 22:43:32 INFO  Disconnecting from Bloop session...
+2024.06.17 22:43:32 INFO  Shut down connection with build server.
+2024.06.17 22:43:32 INFO  Shut down connection with build server.
+2024.06.17 22:43:32 INFO  Attempting to connect to the build server...
+2024.06.17 22:43:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/.metals/bsp.trace.json or /Users/eranwijesekara/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.17 22:43:32 INFO  Attempting to connect to the build server...
+2024.06.17 22:43:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/.metals/bsp.trace.json or /Users/eranwijesekara/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.17 22:43:32 INFO  time: Connected to build server in 65ms
+2024.06.17 22:43:32 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.17 22:43:32 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/q1.scala. Using presentation compiler with project's scala-library version: 2.13.12
+Jun 17, 2024 10:43:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 32
+2024.06.17 22:43:32 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/q1.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.17 22:43:34 INFO  time: indexed workspace in 2.69s
+2024.06.17 22:43:34 WARN  no build target for: /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/q1.scala
+2024.06.17 22:43:34 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/q1.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.17 22:43:35 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 22:43:35 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/q1.scala. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.17 22:43:35 INFO  time: compiled fp_practical02 in 0.35s
+2024.06.17 23:06:03 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:06:03 INFO  time: compiled fp_practical02 in 0.61s
+2024.06.17 23:06:27 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:06:27 INFO  time: compiled fp_practical02 in 0.5s
+2024.06.17 23:06:30 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:06:30 INFO  time: compiled fp_practical02 in 0.39s
+2024.06.17 23:08:54 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.17 23:08:54 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.17 23:08:58 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/metals.sbt. Using presentation compiler with project's scala-library version: 2.13.12
+2024.06.17 23:11:15 INFO  Shutting down server
+2024.06.17 23:11:15 INFO  shutting down Metals
+2024.06.17 23:11:15 INFO  Shut down connection with build server.
+2024.06.17 23:11:15 INFO  Shut down connection with build server.
+2024.06.17 23:11:15 INFO  Exiting server
+2024.06.17 23:11:28 INFO  Started: Metals version 1.3.1 in folders '/private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02' for client Visual Studio Code 1.89.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@1e9ac906]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4021aca8]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@1e9ac906]
+2024.06.17 23:11:28 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.17 23:11:29 INFO  Attempting to connect to the build server...
+2024.06.17 23:11:29 INFO  no build target found for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.17 23:11:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/.metals/bsp.trace.json or /Users/eranwijesekara/Library/Caches/org.scalameta.metals/bsp.trace.json
+Jun 17, 2024 11:11:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jun 17, 2024 11:11:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2024.06.17 23:11:30 INFO  Attempting to connect to the build server...
+2024.06.17 23:11:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/.metals/bsp.trace.json or /Users/eranwijesekara/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.17 23:11:30 INFO  time: Connected to build server in 0.78s
+2024.06.17 23:11:30 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.17 23:11:34 INFO  time: indexed workspace in 3.65s
+2024.06.17 23:11:52 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:11:52 INFO  time: compiled fp_practical02 in 0.14s
+2024.06.17 23:11:53 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:11:53 INFO  time: compiled fp_practical02 in 48ms
+2024.06.17 23:11:55 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:11:55 INFO  time: compiled fp_practical02 in 47ms
+2024.06.17 23:12:02 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:12:02 INFO  time: compiled fp_practical02 in 83ms
+2024.06.17 23:12:11 INFO  Disconnecting from Bloop session...
+2024.06.17 23:12:11 INFO  Shut down connection with build server.
+2024.06.17 23:12:11 INFO  Shut down connection with build server.
+2024.06.17 23:12:11 INFO  Deleted directories inside .bloop
+2024.06.17 23:12:11 INFO  Attempting to connect to the build server...
+2024.06.17 23:12:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/.metals/bsp.trace.json or /Users/eranwijesekara/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.17 23:12:12 INFO  Attempting to connect to the build server...
+2024.06.17 23:12:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/project/.metals/bsp.trace.json or /Users/eranwijesekara/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.06.17 23:12:12 INFO  time: Connected to build server in 1.59s
+2024.06.17 23:12:12 INFO  Connected to Build server: Bloop v1.5.17
+2024.06.17 23:12:14 INFO  time: indexed workspace in 1.39s
+2024.06.17 23:12:14 INFO  compiling fp_practical02 (3 scala sources)
+2024.06.17 23:12:14 INFO  Deduplicating compilation of fp_practical02 from bsp client 'Metals 1.3.1' (since 1.906s)
+2024.06.17 23:12:14 INFO  compiling fp_practical02 (3 scala sources)
+2024.06.17 23:12:14 INFO  time: compiled fp_practical02 in 0.79s
+2024.06.17 23:12:16 INFO  compiling fp_practical02 (3 scala sources)
+2024.06.17 23:12:16 INFO  time: compiled fp_practical02 in 76ms
+Jun 17, 2024 11:12:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+Jun 17, 2024 11:12:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 80
+2024.06.17 23:12:39 INFO  compiling fp_practical02 (2 scala sources)
+2024.06.17 23:12:40 WARN  Invalid text document uri received from build server: file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/tempCodeRunnerFile.scala
+2024.06.17 23:12:40 INFO  time: compiled fp_practical02 in 1.37s
+2024.06.17 23:12:40 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:12:40 INFO  time: compiled fp_practical02 in 42ms
+2024.06.17 23:13:04 WARN  Invalid text document uri received from build server: file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/tempCodeRunnerFile.scala
+2024.06.17 23:13:18 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:13:19 INFO  time: compiled fp_practical02 in 1.29s
+2024.06.17 23:13:23 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:13:23 INFO  time: compiled fp_practical02 in 51ms
+2024.06.17 23:13:27 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:13:27 INFO  time: compiled fp_practical02 in 53ms
+2024.06.17 23:14:13 INFO  compiling fp_practical02 (2 scala sources)
+2024.06.17 23:14:13 INFO  time: compiled fp_practical02 in 0.1s
+2024.06.17 23:16:45 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:16:45 INFO  time: compiled fp_practical02 in 68ms
+2024.06.17 23:16:49 WARN  Invalid text document uri received from build server: file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/tempCodeRunnerFile.scala
+2024.06.17 23:24:45 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:24:45 INFO  time: compiled fp_practical02 in 0.1s
+2024.06.17 23:24:46 INFO  compiling fp_practical02 (3 scala sources)
+2024.06.17 23:24:46 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:24:48 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:24:48 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:24:48 WARN  Invalid text document uri received from build server: file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/tempCodeRunnerFile.scala
+2024.06.17 23:24:50 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:24:50 INFO  time: compiled fp_practical02 in 0.46s
+2024.06.17 23:24:51 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:24:51 INFO  time: compiled fp_practical02 in 0.24s
+2024.06.17 23:28:40 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:28:40 INFO  time: compiled fp_practical02 in 94ms
+2024.06.17 23:28:43 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:28:43 INFO  time: compiled fp_practical02 in 65ms
+2024.06.17 23:28:46 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:28:46 INFO  time: compiled fp_practical02 in 63ms
+2024.06.17 23:28:48 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:28:48 INFO  time: compiled fp_practical02 in 65ms
+2024.06.17 23:28:51 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:28:51 INFO  time: compiled fp_practical02 in 0.4s
+2024.06.17 23:29:05 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:29:05 INFO  time: compiled fp_practical02 in 0.36s
+2024.06.17 23:31:11 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:31:11 INFO  time: compiled fp_practical02 in 0.4s
+2024.06.17 23:31:12 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:31:12 INFO  time: compiled fp_practical02 in 0.13s
+2024.06.17 23:31:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:31:20 INFO  time: compiled fp_practical02 in 47ms
+2024.06.17 23:31:22 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:31:22 INFO  time: compiled fp_practical02 in 0.45s
+2024.06.17 23:31:25 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:31:25 INFO  time: compiled fp_practical02 in 0.33s
+2024.06.17 23:31:27 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:31:27 INFO  time: compiled fp_practical02 in 0.34s
+2024.06.17 23:31:43 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:31:43 INFO  time: compiled fp_practical02 in 0.36s
+2024.06.17 23:31:44 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:31:44 INFO  time: compiled fp_practical02 in 0.14s
+2024.06.17 23:32:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:32:20 INFO  time: compiled fp_practical02 in 0.39s
+2024.06.17 23:32:22 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:32:22 INFO  time: compiled fp_practical02 in 0.32s
+2024.06.17 23:33:03 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:33:03 INFO  time: compiled fp_practical02 in 0.19s
+2024.06.17 23:34:42 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:34:42 INFO  time: compiled fp_practical02 in 74ms
+Jun 17, 2024 11:34:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 554
+Jun 17, 2024 11:34:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 555
+Jun 17, 2024 11:34:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 556
+Jun 17, 2024 11:34:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 558
+2024.06.17 23:34:45 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:34:45 INFO  time: compiled fp_practical02 in 0.29s
+2024.06.17 23:34:47 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:34:47 INFO  time: compiled fp_practical02 in 0.35s
+2024.06.17 23:34:54 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:34:54 INFO  time: compiled fp_practical02 in 0.27s
+2024.06.17 23:34:58 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:34:58 INFO  time: compiled fp_practical02 in 0.25s
+2024.06.17 23:35:00 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:35:00 INFO  time: compiled fp_practical02 in 0.23s
+2024.06.17 23:35:02 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:35:02 INFO  time: compiled fp_practical02 in 0.34s
+2024.06.17 23:35:25 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:35:25 INFO  time: compiled fp_practical02 in 50ms
+2024.06.17 23:35:25 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:35:26 INFO  time: compiled fp_practical02 in 33ms
+2024.06.17 23:35:43 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:35:43 INFO  time: compiled fp_practical02 in 52ms
+2024.06.17 23:35:47 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:35:47 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:35:58 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:35:58 INFO  time: compiled fp_practical02 in 0.25s
+2024.06.17 23:36:03 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:03 INFO  time: compiled fp_practical02 in 47ms
+2024.06.17 23:36:10 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:10 INFO  time: compiled fp_practical02 in 51ms
+2024.06.17 23:36:16 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:16 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:36:22 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:22 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:36:25 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:25 INFO  time: compiled fp_practical02 in 46ms
+2024.06.17 23:36:27 ERROR Failed to tokenize input for semantic tokens for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala
+scala.meta.tokenizers.TokenizeException: <input>:2: error: unclosed string interpolation
+    def celciousToFaherenheit(c")
+                                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:666)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:364)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.06.17 23:36:28 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:28 INFO  time: compiled fp_practical02 in 46ms
+2024.06.17 23:36:36 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:36 INFO  time: compiled fp_practical02 in 49ms
+2024.06.17 23:36:38 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:38 INFO  time: compiled fp_practical02 in 51ms
+2024.06.17 23:36:40 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:40 INFO  time: compiled fp_practical02 in 42ms
+Jun 17, 2024 11:36:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1038
+2024.06.17 23:36:44 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:44 INFO  time: compiled fp_practical02 in 56ms
+2024.06.17 23:36:46 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:46 INFO  time: compiled fp_practical02 in 41ms
+2024.06.17 23:36:50 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:50 INFO  time: compiled fp_practical02 in 0.28s
+2024.06.17 23:36:56 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:36:56 INFO  time: compiled fp_practical02 in 0.12s
+2024.06.17 23:37:01 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:01 INFO  time: compiled fp_practical02 in 0.4s
+2024.06.17 23:37:03 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:03 INFO  time: compiled fp_practical02 in 0.11s
+2024.06.17 23:37:22 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:22 INFO  time: compiled fp_practical02 in 0.31s
+2024.06.17 23:37:23 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:23 INFO  time: compiled fp_practical02 in 0.29s
+2024.06.17 23:37:27 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:27 INFO  time: compiled fp_practical02 in 56ms
+2024.06.17 23:37:35 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:35 INFO  time: compiled fp_practical02 in 60ms
+something's wrong: no file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala in Array[<error>]RangePosition(file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala, 105, 105, 120)
+something's wrong: no file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala in Array[<error>]RangePosition(file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala, 105, 105, 113)
+something's wrong: no file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala in Array[<error>]RangePosition(file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala, 105, 105, 114)
+something's wrong: no file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala in Array[<error>]RangePosition(file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala, 105, 105, 115)
+something's wrong: no file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala in Array[<error>]RangePosition(file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala, 105, 105, 115)
+something's wrong: no file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala in Array[<error>]RangePosition(file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala, 105, 105, 117)
+something's wrong: no file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala in Array[String]RangePosition(file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q2.scala, 105, 105, 118)
+2024.06.17 23:37:40 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:40 INFO  time: compiled fp_practical02 in 64ms
+2024.06.17 23:37:42 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:42 INFO  time: compiled fp_practical02 in 47ms
+2024.06.17 23:37:43 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:43 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:37:53 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:53 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:37:54 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:37:54 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:38:00 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:00 INFO  time: compiled fp_practical02 in 41ms
+2024.06.17 23:38:00 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:01 INFO  time: compiled fp_practical02 in 30ms
+2024.06.17 23:38:03 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:03 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:38:07 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:07 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:38:09 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:09 INFO  time: compiled fp_practical02 in 53ms
+2024.06.17 23:38:17 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:17 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:38:18 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:18 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:38:19 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:19 INFO  time: compiled fp_practical02 in 42ms
+2024.06.17 23:38:23 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:23 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:38:29 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:29 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:38:30 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:30 INFO  time: compiled fp_practical02 in 44ms
+2024.06.17 23:38:34 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:34 INFO  time: compiled fp_practical02 in 44ms
+2024.06.17 23:38:44 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:44 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:38:46 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:46 INFO  time: compiled fp_practical02 in 44ms
+2024.06.17 23:38:49 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:49 INFO  time: compiled fp_practical02 in 42ms
+2024.06.17 23:38:52 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:52 INFO  time: compiled fp_practical02 in 42ms
+2024.06.17 23:38:56 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:38:56 INFO  time: compiled fp_practical02 in 47ms
+2024.06.17 23:39:05 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:39:05 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:39:07 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:39:07 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:39:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:39:20 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:39:35 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:39:35 INFO  time: compiled fp_practical02 in 45ms
+2024.06.17 23:39:42 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:39:42 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:39:45 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:39:45 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:39:49 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:39:49 INFO  time: compiled fp_practical02 in 49ms
+2024.06.17 23:40:03 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:40:03 INFO  time: compiled fp_practical02 in 46ms
+2024.06.17 23:40:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:40:20 INFO  time: compiled fp_practical02 in 42ms
+2024.06.17 23:40:29 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:40:29 INFO  time: compiled fp_practical02 in 42ms
+2024.06.17 23:40:40 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:40:40 INFO  time: compiled fp_practical02 in 44ms
+2024.06.17 23:40:48 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:40:48 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:40:49 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:40:49 INFO  time: compiled fp_practical02 in 43ms
+2024.06.17 23:40:51 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:40:51 INFO  time: compiled fp_practical02 in 0.34s
+2024.06.17 23:41:17 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:41:17 INFO  time: compiled fp_practical02 in 0.37s
+2024.06.17 23:41:19 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:41:19 INFO  time: compiled fp_practical02 in 0.45s
+2024.06.17 23:41:33 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:41:33 INFO  time: compiled fp_practical02 in 0.17s
+2024.06.17 23:41:57 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:41:57 INFO  time: compiled fp_practical02 in 0.32s
+Jun 17, 2024 11:42:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1932
+2024.06.17 23:42:04 INFO  compiling fp_practical02 (3 scala sources)
+2024.06.17 23:42:04 INFO  time: compiled fp_practical02 in 0.39s
+2024.06.17 23:42:07 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:42:07 INFO  time: compiled fp_practical02 in 0.3s
+2024.06.17 23:42:11 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:42:11 INFO  time: compiled fp_practical02 in 0.33s
+Jun 17, 2024 11:42:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2037
+2024.06.17 23:42:25 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:42:25 INFO  time: compiled fp_practical02 in 47ms
+2024.06.17 23:42:28 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:42:28 INFO  time: compiled fp_practical02 in 59ms
+2024.06.17 23:42:32 ERROR Failed to tokenize input for semantic tokens for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q3.scala
+scala.meta.tokenizers.TokenizeException: <input>:2: error: Invalid literal number, followed by identifier character
+    def sphere(r:Double):Double=4r*r*math.Pi
+                                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.06.17 23:42:33 ERROR Failed to tokenize input for semantic tokens for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q3.scala
+scala.meta.tokenizers.TokenizeException: <input>:2: error: Invalid literal number, followed by identifier character
+    def sphere(r:Double):Double=4/3r*r*math.Pi
+                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.06.17 23:42:34 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:42:34 INFO  time: compiled fp_practical02 in 42ms
+2024.06.17 23:42:34 ERROR Failed to tokenize input for semantic tokens for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q3.scala
+scala.meta.tokenizers.TokenizeException: <input>:2: error: Invalid literal number, followed by identifier character
+    def sphere(r:Double):Double=4/3r*r*math.Pi
+                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.06.17 23:42:39 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:42:39 INFO  time: compiled fp_practical02 in 54ms
+2024.06.17 23:43:01 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:43:01 INFO  time: compiled fp_practical02 in 60ms
+2024.06.17 23:43:06 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:43:06 INFO  time: compiled fp_practical02 in 53ms
+2024.06.17 23:43:14 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:43:14 INFO  time: compiled fp_practical02 in 54ms
+2024.06.17 23:43:16 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:43:16 INFO  time: compiled fp_practical02 in 0.34s
+2024.06.17 23:43:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:43:20 INFO  time: compiled fp_practical02 in 58ms
+2024.06.17 23:43:25 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:43:25 INFO  time: compiled fp_practical02 in 0.33s
+2024.06.17 23:43:58 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:43:58 INFO  time: compiled fp_practical02 in 0.18s
+Jun 17, 2024 11:45:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2434
+2024.06.17 23:45:22 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:45:22 INFO  time: compiled fp_practical02 in 51ms
+2024.06.17 23:45:24 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:45:24 INFO  time: compiled fp_practical02 in 42ms
+2024.06.17 23:45:32 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:45:32 INFO  time: compiled fp_practical02 in 0.27s
+2024.06.17 23:45:40 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:45:40 INFO  time: compiled fp_practical02 in 0.25s
+2024.06.17 23:45:43 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:45:43 INFO  time: compiled fp_practical02 in 0.37s
+2024.06.17 23:46:07 INFO  compiling fp_practical02 (1 scala source)
+2024.06.17 23:46:07 INFO  time: compiled fp_practical02 in 0.37s
+2024.06.18 00:53:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:53:20 INFO  time: compiled fp_practical02 in 71ms
+2024.06.18 00:53:25 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:53:25 INFO  time: compiled fp_practical02 in 50ms
+2024.06.18 00:53:32 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:53:32 INFO  time: compiled fp_practical02 in 67ms
+2024.06.18 00:53:35 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:53:35 INFO  time: compiled fp_practical02 in 47ms
+2024.06.18 00:53:42 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:53:42 INFO  time: compiled fp_practical02 in 45ms
+2024.06.18 00:53:49 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:53:49 INFO  time: compiled fp_practical02 in 0.43s
+2024.06.18 00:54:19 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:54:19 INFO  time: compiled fp_practical02 in 0.18s
+2024.06.18 00:54:53 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:54:53 INFO  time: compiled fp_practical02 in 60ms
+2024.06.18 00:54:57 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:54:57 INFO  time: compiled fp_practical02 in 42ms
+2024.06.18 00:54:59 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:54:59 INFO  time: compiled fp_practical02 in 0.25s
+2024.06.18 00:55:00 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:00 INFO  time: compiled fp_practical02 in 0.23s
+2024.06.18 00:55:03 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:03 INFO  time: compiled fp_practical02 in 50ms
+2024.06.18 00:55:03 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:06 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:07 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:07 INFO  time: compiled fp_practical02 in 45ms
+2024.06.18 00:55:07 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:09 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:09 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:09 INFO  time: compiled fp_practical02 in 49ms
+2024.06.18 00:55:10 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:15 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:16 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:17 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:17 INFO  time: compiled fp_practical02 in 45ms
+2024.06.18 00:55:17 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:17 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:18 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:19 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:19 INFO  time: compiled fp_practical02 in 45ms
+2024.06.18 00:55:19 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:37 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:39 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:40 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:40 INFO  time: compiled fp_practical02 in 46ms
+2024.06.18 00:55:40 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:41 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:42 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:42 INFO  time: compiled fp_practical02 in 44ms
+2024.06.18 00:55:42 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:45 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:45 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:45 INFO  time: compiled fp_practical02 in 44ms
+2024.06.18 00:55:46 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:47 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:47 INFO  time: compiled fp_practical02 in 43ms
+2024.06.18 00:55:47 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:48 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:55:49 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:55:49 INFO  time: compiled fp_practical02 in 46ms
+2024.06.18 00:55:49 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:02 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:02 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:03 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:04 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:04 INFO  time: compiled fp_practical02 in 43ms
+2024.06.18 00:56:04 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:08 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:09 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:09 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:10 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:10 INFO  time: compiled fp_practical02 in 46ms
+2024.06.18 00:56:10 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:11 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:11 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:11 INFO  time: compiled fp_practical02 in 41ms
+2024.06.18 00:56:12 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:15 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:15 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:15 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:17 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:17 INFO  time: compiled fp_practical02 in 44ms
+2024.06.18 00:56:17 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:17 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:18 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:18 INFO  time: compiled fp_practical02 in 43ms
+2024.06.18 00:56:18 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:28 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:28 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:29 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:29 INFO  time: compiled fp_practical02 in 43ms
+2024.06.18 00:56:29 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:32 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:33 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:33 INFO  time: compiled fp_practical02 in 40ms
+2024.06.18 00:56:33 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:36 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:36 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:36 INFO  time: compiled fp_practical02 in 48ms
+2024.06.18 00:56:37 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:43 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:43 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:56:44 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:44 INFO  time: compiled fp_practical02 in 0.3s
+2024.06.18 00:56:50 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:56:50 INFO  time: compiled fp_practical02 in 40ms
+2024.06.18 00:57:02 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:02 INFO  time: compiled fp_practical02 in 55ms
+2024.06.18 00:57:05 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:05 INFO  time: compiled fp_practical02 in 46ms
+2024.06.18 00:57:10 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:10 INFO  time: compiled fp_practical02 in 47ms
+2024.06.18 00:57:13 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:13 INFO  time: compiled fp_practical02 in 43ms
+2024.06.18 00:57:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:20 INFO  time: compiled fp_practical02 in 42ms
+2024.06.18 00:57:21 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:21 INFO  time: compiled fp_practical02 in 43ms
+2024.06.18 00:57:24 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:24 INFO  time: compiled fp_practical02 in 0.31s
+2024.06.18 00:57:27 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:27 INFO  time: compiled fp_practical02 in 0.28s
+2024.06.18 00:57:47 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:47 INFO  time: compiled fp_practical02 in 0.43s
+2024.06.18 00:57:53 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:53 INFO  time: compiled fp_practical02 in 46ms
+2024.06.18 00:57:58 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:57:58 INFO  time: compiled fp_practical02 in 42ms
+2024.06.18 00:58:01 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:01 INFO  time: compiled fp_practical02 in 56ms
+something's wrong: no file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala in Array[<error>]RangePosition(file:///private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala, 119, 119, 134)
+2024.06.18 00:58:10 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:10 INFO  time: compiled fp_practical02 in 48ms
+2024.06.18 00:58:11 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:11 INFO  time: compiled fp_practical02 in 56ms
+2024.06.18 00:58:13 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:13 INFO  time: compiled fp_practical02 in 42ms
+2024.06.18 00:58:17 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:17 INFO  time: compiled fp_practical02 in 0.31s
+2024.06.18 00:58:24 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:24 INFO  time: compiled fp_practical02 in 0.31s
+2024.06.18 00:58:28 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:28 INFO  time: compiled fp_practical02 in 68ms
+2024.06.18 00:58:28 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:58:30 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:58:30 ERROR Failed to tokenize input for semantic tokens for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed character literal
+        printf('')
+               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:414)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:419)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:30)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:514)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1570)
+
+2024.06.18 00:58:31 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:31 INFO  time: compiled fp_practical02 in 47ms
+2024.06.18 00:58:31 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:58:32 WARN  Could not load snapshot text for /private/var/folders/bv/ywmky7qj5_b3ns2y2t3_91zc0000gn/T/fp_practical02/src/main/scala/q5.scala
+2024.06.18 00:58:33 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:33 INFO  time: compiled fp_practical02 in 0.3s
+2024.06.18 00:58:42 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:42 INFO  time: compiled fp_practical02 in 0.3s
+2024.06.18 00:58:50 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:50 INFO  time: compiled fp_practical02 in 0.32s
+2024.06.18 00:58:53 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:53 INFO  time: compiled fp_practical02 in 0.3s
+2024.06.18 00:58:55 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:55 INFO  time: compiled fp_practical02 in 0.41s
+2024.06.18 00:58:57 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:57 INFO  time: compiled fp_practical02 in 92ms
+2024.06.18 00:58:58 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:58:58 INFO  time: compiled fp_practical02 in 0.29s
+2024.06.18 00:59:00 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:00 INFO  time: compiled fp_practical02 in 0.3s
+2024.06.18 00:59:08 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:08 INFO  time: compiled fp_practical02 in 0.31s
+2024.06.18 00:59:13 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:13 INFO  time: compiled fp_practical02 in 43ms
+2024.06.18 00:59:17 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:17 INFO  time: compiled fp_practical02 in 44ms
+2024.06.18 00:59:19 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:19 INFO  time: compiled fp_practical02 in 48ms
+2024.06.18 00:59:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:20 INFO  time: compiled fp_practical02 in 55ms
+2024.06.18 00:59:50 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:50 INFO  time: compiled fp_practical02 in 49ms
+2024.06.18 00:59:54 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:54 INFO  time: compiled fp_practical02 in 52ms
+2024.06.18 00:59:56 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 00:59:56 INFO  time: compiled fp_practical02 in 0.35s
+2024.06.18 01:00:05 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 01:00:05 INFO  time: compiled fp_practical02 in 76ms
+2024.06.18 01:00:06 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 01:00:06 INFO  time: compiled fp_practical02 in 32ms
+2024.06.18 01:00:20 INFO  compiling fp_practical02 (1 scala source)
+2024.06.18 01:00:20 INFO  time: compiled fp_practical02 in 0.33s
+Jun 18, 2024 1:02:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
